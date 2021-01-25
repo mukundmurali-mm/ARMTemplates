@@ -1,0 +1,27 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "DiskName": {
+            "value": "ubuntumachinedisk" 
+        },
+        "Public-IP": {
+            "value": "ubuntunewip-pip" 
+        },
+        "VNET": {
+            "value": "ARMvnet" 
+        },
+        "vnetAddressprefix": {
+            "value": "10.180.0.0/16" 
+        },
+        "subnet1prefix": {
+            "value": "10.180.10.0/24" 
+        },
+        "Subnet1Name": {
+            "value": "newvmsubnet" 
+        },
+        "VMName": {
+            "value": "ARMubuntumachine" 
+        }
+    }
+}
